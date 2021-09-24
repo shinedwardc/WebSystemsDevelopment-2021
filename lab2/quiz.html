@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The U.S. Constitution</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+
+        <header>
+            <h1>Constitution Quiz</h1>
+        </header>
+
+        <!--Possible Alternative Navigation-->
+        <!--Navigation Bar-->
+        <div class = "extraNav">
+            <button class = "navBtn" onclick = "returnToTop()">Home</button>
+            <button class = "navBtn" onclick = "glossNav1()">Glossary</button>
+            <button class="navBtn" onclick="toQuiz()">Quiz</button>
+        </div>
+        <div class="dropWrapper">
+            <div class = "drop">
+                <button onclick="dropDown(this)" class="source">Articles</button>  
+                <div id = "artDrop" class = "dropdown-content">
+                    <a href="./index.html#article1">Article I</a>
+                    <a href="./index.html#article2">Article II</a>
+                    <a href="./index.html#article3">Article III</a>
+                    <a href="./index.html#article4">Article IV</a>
+                    <a href="./index.html#article5">Article V</a>
+                    <a href="./index.html#article6">Article VI</a>
+                    <a href="./index.html#article7">Article VII</a>
+                </div>
+    
+            </div>
+            <div class = "drop">
+                <button onclick="dropDown(this)" class="source">Amendments</button> 
+                <div id = "amendDrop" class = "dropdown-content">
+                    <a href="./index.html#amendment1">Amendment I</a>  
+                    <a href="./index.html#amendment2">Amendment II</a>  
+                    <a href="./index.html#amendment3">Amendment III</a>
+                    <a href="./index.html#amendment4">Amendment IV</a>
+                    <a href="./index.html#amendment5">Amendment V</a>
+                    <a href="./index.html#amendment6">Amendment VI</a>
+                    <a href="./index.html#amendment7">Amendment VII</a>
+                    <a href="./index.html#amendment8">Amendment VIII</a>
+                    <a href="./index.html#amendment9">Amendment IX</a>
+                    <a href="./index.html#amendment10">Amendment X</a>  
+                </div> 
+            </div>
+            <div class = "drop" id = "Summaries">
+                <button onclick="dropDown(this)" class="source">Summaries</button>
+                <div id="sumDrop" class="dropdown-content"> 
+                    <button onclick="dropDown(this)" class="source">Articles</button>
+                    <div id = "articleSum" class = "inner-content">
+                        <a href="Articles/article1.html">Article I</a>  
+                        <a href="Articles/article2.html">Article II</a>  
+                        <a href="Articles/article3.html">Article III</a>  
+                        <a href="Articles/article4.html">Article IV</a>
+                        <a href="Articles/article5.html">Article V</a>
+                        <a href="Articles/article6.html">Article VI</a>
+                        <a href="Articles/article7.html">Article VII</a>
+                    </div>
+                    <button onclick="dropDown(this)" class="source">Amendments</button> 
+                    <div id = "amendSum" class = "inner-content">
+                        <a href="Amendments/amendment1.html">Amendment I</a>  
+                        <a href="Amendments/amendment2.html">Amendment II</a>  
+                        <a href="Amendments/amendment3.html">Amendment III</a>
+                        <a href="Amendments/amendment4.html">Amendment IV</a>
+                        <a href="Amendments/amendment5.html">Amendment V</a>
+                        <a href="Amendments/amendment6.html">Amendment VI</a>
+                        <a href="Amendments/amendment7.html">Amendment VII</a>
+                        <a href="Amendments/amendment8.html">Amendment VIII</a>
+                        <a href="Amendments/amendment9.html">Amendment IX</a>
+                        <a href="Amendments/amendment10.html">Amendment X</a>  
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+        <main>
+            <h1>Are you a Constitutional Scholar?</h1>
+            <p>Take our quiz to test how muchyou know about this foundational document! We will ask you 21 questions about the Constitution, and let you know how you do!</p>
+            <section class="question">
+                <h3>Question 1</h3>
+                <p>What are the reasons given for creating the Constitution?</p>
+                <div class="answers">
+                    <button>A) Life, Liberty, and the Pursuit of Happiness</button>
+                    <button class="correctAnswer">B) Justice, Defense, and General Welfare</button>
+                </div>
+                <div class="proof">
+                    <p>From the Preamble:</p>
+                    <p>We the People of the United States, in Order to form a more perfect Union, <mark> establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, </mark> and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.</p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 2</h3>
+                <p>Which branch of government has the power to make and pass laws?</p>
+                <div class="answers">
+                    <button>A) The President/Executive</button>
+                    <button class="correctAnswer">B) Congress/Legislative</button>
+                    <button>C) Supreme Court/Judicial</button>
+                    <button>D) President/Congress</button>
+                </div>
+                <div class="proof">
+                    <p>From Article 1, Section 1:</p>
+                    <p>All legislative Powers herein granted shall be vested in a <mark> Congress of the United States, which shall consist of a Senate and House of Representatives. </mark></p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 3</h3>
+                <p>How old does one have to be to serve in the House of Representatives?</p>
+                <div class="answers">
+                    <button>A) 21</button>
+                    <button>B) 30</button>
+                    <button class="correctAnswer">C) 25</button>
+                    <button>D) 35</button>
+                </div>
+                <div class="proof">
+                    <p>From Article 1, Section 2:</p>
+                    <p> <mark> No Person shall be a Representative who shall not have attained to the Age of twenty five Years, </mark> and been seven Years a Citizen of the United States, and who shall not, when elected, be an Inhabitant of that State in which he shall be chosen.
+                    </p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 4</h3>
+                <p>How often do senators face reelection?</p>
+                <div class="answers">
+                    <button>A) Every 2 years</button>
+                    <button>B) Every 4 years</button>
+                    <button class="correctAnswer">C) Every 6 years</button>
+                    <button>D) Every 8 years</button>
+                </div>
+                <div class="proof">
+                    <p>From Article 1, Section 3:</p>
+                    <p>The Senate of the United States shall be composed of two Senators from each State, chosen by the Legislature thereof, for <mark> six Years; </mark>and each Senator shall have one Vote.</p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 5</h3>
+                <p>How is a tie in the senate resolved?</p>
+                <div class="answers">
+                    <button>A) It goes to the House</button>
+                    <button>B) The Chief Justice of the Supreme Court</button>
+                    <button>C) The President</button>
+                    <button class="correctAnswer">D) The Vice President</button>
+                </div>
+                <div class="proof">
+                    <p>From Article 1, Section 3:</p>
+                    <p>The <mark> Vice President of the United States </mark>shall be President of the Senate, but shall have no Vote, unless they be equally divided.</p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 6</h3>
+                <p>Which part of the government has the ability to introduce tax bills?</p>
+                <div class="answers">
+                    <button>A) The Senate </button>
+                    <button class="correctAnswer">B) The House </button>
+                    <button>C) The President </button>
+                    <button>D) Either the House or the Senate </button>
+                </div>
+                <div class="proof">
+                    <p>From Article 1, Section 7:</p>
+                    <p>All Bills for raising Revenue shall originate in the <mark>House of Representatives; </mark>but the Senate may propose or concur with Amendments as on other Bills.</p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 7</h3>
+                <p>How much of Congress must vote for a bill to override a Presidential veto?</p>
+                <div class="answers">
+                    <button>A) One Half </button>
+                    <button class="correctAnswer">B) Two Thirds</button>
+                    <button>C) Three Fourths</button>
+                    <button>D) Four Fifths</button>
+                </div>
+                <div class="proof">
+                    <p>From Article 1, Section 7:</p>
+                    <p>Every Order, Resolution, or Vote to which the Concurrence of the Senate and House of Representatives may be necessary (except on a question of Adjournment) shall be presented to the President of the United States; and before the Same shall take Effect, shall be approved by him, or being disapproved by him, shall be repassed by <mark> two thirds of the Senate and House of Representatives, </mark> according to the Rules and Limitations prescribed in the Case of a Bill.</p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 8</h3>
+                <p>Which of the following is not a power of Congress?</p>
+                <div class="answers">
+                    <button>A) To regualte trade </button>
+                    <button>B) To run the Post Office</button>
+                    <button>C) To declare war</button>
+                    <button class="correctAnswer">D) To declare laws unconstitutional</button>
+                </div>
+                <div class="proof">
+                    <p>From Article 1, Section 8: (excerpts) </p>
+                    <p> <mark> To regulate Commerce  </mark> with foreign Nations, and among the several States, and with the Indian Tribes;</p>
+                    <p>To establish <mark>Post Offices</mark> and post Roads;</p>
+                    <p><mark>To declare War, </mark> grant Letters of Marque and Reprisal, and make Rules concerning Captures on Land and Water;</p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 9</h3>
+                <p>How is the President elected if there is a tie in votes?</p>
+                <div class="answers">
+                    <button>A) By the citizens of the United States </button>
+                    <button>B) By verification by the Senate</button>
+                    <button>C) By the electoral college</button>
+                    <button class="correctAnswer">D) By the House of Representatives</button>
+                </div>
+                <div class="proof">
+                    <p>From Article 2, Section 1: </p>
+                    <p>The Person having the greatest Number of Votes shall be the President, if such Number be a Majority of the whole Number of Electors appointed; and if there be more than one who have such Majority, and <mark>have an equal Number of Votes, then the House of Representatives shall immediately chuse by Ballot one of them for President;</mark> and if no Person have a Majority, then from the five highest on the List the said House shall in like Manner chuse the President.</p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 10</h3>
+                <p>Which of the following is not a power of the President?</p>
+                <div class="answers">
+                    <button class="correctAnswer">A) Declaring laws unconstitutional</button>
+                    <button>B) Be Commander in Chief of the military</button>
+                    <button>C) Make treaties with other countries</button>
+                    <button>D) Fill vacancies in the Senate during recess</button>
+                </div>
+                <div class="proof">
+                    <p>From Article 2, Section 2: (excerpts)</p>
+                    <p>The President shall be <mark>Commander in Chief of the Army and Navy of the United States,</mark> and of the Militia of the several States, when called into the actual Service of the United States;</p>
+                    <p>He shall have Power, by and with the Advice and Consent of the Senate, <mark> to make Treaties, </mark> provided two thirds of the Senators present concur; and he shall nominate, and by and with the Advice and Consent of the Senate, shall appoint Ambassadors, other public Ministers and Consuls, Judges of the supreme Court, and all other Officers of the United States, whose Appointments are not herein otherwise provided for, and which shall be established by Law: </p>
+                    <p>The President shall have Power to <mark> fill up all Vacancies that may happen during the Recess of the Senate, </mark> by granting Commissions which shall expire at the End of their next Session.</p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 11</h3>
+                <p>How long do Supreme Court Justices serve?</p>
+                <div class="answers">
+                    <button>A) 4 years </button>
+                    <button>B) 6 years </button>
+                    <button>C) 10 years </button>
+                    <button class="correctAnswer">D) Until they retire </button>
+                </div>
+                <div class="proof">
+                    <p>From Article 3, Section 1: </p>
+                    <p>The judicial Power of the United States, shall be vested in one supreme Court, and in such inferior Courts as the Congress may from time to time ordain and establish. The Judges, both of the supreme and inferior Courts, <mark>shall hold their Offices during good Behaviour,</mark> and shall, at stated Times, receive for their Services, a Compensation, which shall not be diminished during their Continuance in Office.</p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 12</h3>
+                <p>What cases does the Supreme Court have jurisdiction over?</p>
+                <div class="answers">
+                    <button>A) Cases related to the Constitution </button>
+                    <button>B) Cases related to Congressional laws </button>
+                    <button>C) Cases related to maritime issues</button>
+                    <button class="correctAnswer">D) All of the above </button>
+                </div>
+                <div class="proof">
+                    <p>From Article 3, Section 1: </p>
+                    <p>The judicial Power shall extend to all Cases, in <mark>Law and Equity, arising under this Constitution,</mark> the Laws of the United States, and Treaties made, or which shall be made, under their Authority;—to all Cases affecting Ambassadors, other public Ministers and Consuls;—to <mark>all Cases of admiralty and maritime Jurisdiction;</mark></p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 13</h3>
+                <p>Which branch of government has the ability to decide punishment for treason?</p>
+                <div class="answers">
+                    <button>A) The President </button>
+                    <button>B) The Supreme Court </button>
+                    <button class="correctAnswer">C) Congress</button>
+                    <button>D) Any judge or court </button>
+                </div>
+                <div class="proof">
+                    <p>From Article 3, Section 3: </p>
+                    <p><mark>The Congress shall have Power to declare the Punishment of Treason, </mark> but no Attainder of Treason shall work Corruption of Blood, or Forfeiture except during the Life of the Person attainted.
+                    </p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 14</h3>
+                <p>How many members of Congress must agree to amend the Constitution?</p>
+                <div class="answers">
+                    <button>A) One half </button>
+                    <button class="correctAnswer">B) Two thirds </button>
+                    <button>C) Three fourths </button>
+                    <button>D) All </button>
+                </div>
+                <div class="proof">
+                    <p>From Article 5: </p>
+                    <p>The Congress, whenever <mark>two thirds of both Houses shall deem it necessary, </mark>shall propose Amendments to this Constitution, or, on the Application of the Legislatures of two thirds of the several States, shall call a Convention for proposing Amendments,</p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 15</h3>
+                <p>What is the Supreme Law of the Land?</p>
+                <div class="answers">
+                    <button>A) The President </button>
+                    <button>B) Congress </button>
+                    <button class="correctAnswer">C) The Constitution </button>
+                    <button>D) The Supreme Court </button>
+                </div>
+                <div class="proof">
+                    <p>From Article 6: </p>
+                    <p> <mark>This Constitution, and the Laws of the United States which shall be made in Pursuance thereof; </mark>and all Treaties made, or which shall be made, under the Authority of the United States, shall be the supreme Law of the Land; </p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 16</h3>
+                <p>What year was the Constitution ratified?</p>
+                <div class="answers">
+                    <button>A) 1776 </button>
+                    <button>B) 1781 </button>
+                    <button class="correctAnswer">C) 1787 </button>
+                    <button>D) 1800 </button>
+                </div>
+                <div class="proof">
+                    <p>From Article 7: </p>
+                    <p>done in Convention by the Unanimous Consent of the States present the Seventeenth Day of September <mark>in the Year of our Lord one thousand seven hundred and Eighty seven</mark> and of the Independance of the United States of America the Twelfth In witness whereof We have hereunto subscribed our Names,</p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 17</h3>
+                <p>Which of the following freedoms is not part of the 1st Amendment?</p>
+                <div class="answers">
+                    <button>A) Freedom of Petition </button>
+                    <button class="correctAnswer">B) Freedom from Want </button>
+                    <button>C) Freedom of Speech </button>
+                    <button>D) Freedom of Assembly </button>
+                </div>
+                <div class="proof">
+                    <p>From Amendment 1: </p>
+                    <p>Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the <mark>freedom of speech,</mark> or of the press; or the right of the <mark>people peaceably to assemble, and to petition the Government</mark> for a redress of grievances.</p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 18</h3>
+                <p>What is required for search and seizure by law enforcement?</p>
+                <div class="answers">
+                    <button>A) Probable Cause </button>
+                    <button>B) Description of place to be searched </button>
+                    <button>C) Description of what is to be seized </button>
+                    <button class="correctAnswer">D) All of the above </button>
+                </div>
+                <div class="proof">
+                    <p>From Amendment 4: </p>
+                    <p>The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but <mark>upon probable cause,</mark> supported by Oath or affirmation, and particularly <mark>describing the place to be searched, and the persons or things to be seized.</mark></p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 19</h3>
+                <p>When accused of a crime, the accused must recieve which of the following?</p>
+                <div class="answers">
+                    <button>A) Told the nature and cause of accusation </button>
+                    <button>B) Witnesses against them </button>
+                    <button>C) The ability to call their own witnesses </button>
+                    <button class="correctAnswer">D) All of the above </button>
+                </div>
+                <div class="proof">
+                    <p>From Amendment 6: </p>
+                    <p>In all criminal prosecutions, the accused shall enjoy the right to a speedy and public trial, by an impartial jury of the State and district wherein the crime shall have been committed, which district shall have been previously ascertained by law, and to be <mark>informed of the nature and cause of the accusation;</mark> to be <mark>confronted with the witnesses against him;</mark> to have compulsory process for <mark>obtaining witnesses in his favor,</mark> and to have the Assistance of Counsel for his defence.</p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 20</h3>
+                <p>Which amendment protects against cruel and unusual punishment?</p>
+                <div class="answers">
+                    <button>A) 1st </button>
+                    <button>B) 5th </button>
+                    <button class="correctAnswer">C) 8th </button>
+                    <button>D) 14th </button>
+                </div>
+                <div class="proof">
+                    <p>From Amendment 8: </p>
+                    <p>Excessive bail shall not be required, nor excessive fines imposed, nor <mark>cruel and unusual punishments inflicted.</mark></p>
+                </div>
+            </section>
+            <section class="question">
+                <h3>Question 21</h3>
+                <p>Who has authority over powers not stated in the Constitution?</p>
+                <div class="answers">
+                    <button>A) The President </button>
+                    <button class="correctAnswer">B) The States </button>
+                    <button>C) Congress </button>
+                    <button>D) The Supreme Court </button>
+                </div>
+                <div class="proof">
+                    <p>From Amendment 10: </p>
+                    <p>The powers not delegated to the United States by the Constitution, nor prohibited by it to the States, are <mark>reserved to the States</mark> respectively, or to the people.</p>
+                </div>
+            </section>
+            <button id="submit" onclick="submitQuiz()" >Submit</button>
+            <section id="results">
+                <h4>Results will appear here</h4>
+            </section>
+        </main>
+    </body>
+</html>
