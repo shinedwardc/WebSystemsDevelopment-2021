@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>ITWS website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="javascript.js"></script>
+        
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a class="active" href="programs.html">Programs</a>
+            <a href="faculty.html">Faculty</a>
+            <a href="news.html">News</a>
+            <a href="social_media.html">Social Media</a>
+        </div>
+        <header>
+            <h2>School of Science</h2>
+            <h1>Information Technology and Web Science</h1>
+        </header>
+        <main>
+            <article class="article_box">
+                <h1>Programs</h1>
+                <h2>Information Technology for a rapidly changing world.</h2>
+                <p>ITWS balances the study of management strategies and technology leadership with advanced course work in IT.</p>
+                <div class = "button_background" onclick="show()">Undergraduate programs <i class="arrow"></i></button>
+                    <div id = "collapse">
+                        <h2>B.S. in Information Technology and Web Science</h2>
+                        <p>Prepares students to solve applied real-world problems and explore the World Wide Web and other IT technologies from the algorithmic, engineering, and social perspective.</p>
+                    </div>
+                </div>
+                <article id="section">
+                    <a href="undergraduate.html">&#9654 Undergradute Programs</a>
+                </article>
+                <div class = "button_background" onclick="show2()">Graduate programs <i class="arrow"></i></button>
+                    <div id = "collapse2">
+                        <h2>M.S. in Information Technology and Web Science</h2>
+                        <p>Maximize curriculum flexibility to adapt your program to your ambitions and goals as well as to your educational and professional backgrounds.</p>
+                    </div>
+                </div>
+                <article id="section">
+                    <a href="post_graduate.html">&#9654 Graduate Programs</a>
+                </article>
+
+            </article>
+        </main>
+    </body>
+</html>
