@@ -5,7 +5,7 @@
 # Reflection
 In this lab, I was in charge of the tutoring.html page, including css styling. I also contributed to organizing json data, specifically in information with the members of GNH.
 Some css elements I used included the use of float, box hover, shadow, and figure/figcaption tags.
-In this lab specifically, I was stuck in understanding how to use ajax to call json data into the html file, as I had few experience with ajax.
+In this lab specifically, I was stuck in understanding how to use ajax with jquery to call json data into the html file, as I had few experience with ajax.
 
 # Sources
 1. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
