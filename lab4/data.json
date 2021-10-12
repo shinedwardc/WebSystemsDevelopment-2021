@@ -1,0 +1,66 @@
+{
+  "newsletter": [
+    {
+      "title": "GNH Announces New Website",
+      "summary": "The site will help streamline the activities..."
+    },
+    {
+      "title": "GNH Announces Partnership with IBM",
+      "summary": "The partnership will allow for members to..."
+    }
+  ],
+  "members": [
+    {
+      "title": "Dr. Callahan",
+      "role":"ITWS Professor",
+      "links": {
+        "twitter": "https://twitter.com/mcallahan",
+        "facebook": "https://facebook.com/mcallahan",
+        "linkedin": "https://linkedin.com/mcallahan",
+        "tiktok": "https://tiktok.com/@mcallahan"
+      }
+    },
+    {
+      "title": "Andrew Smith",
+      "role": "President",
+      "links": {
+        "email": "mailto:smitha24@rpi.edu"
+      }
+    },
+    {
+      "title": "Sean Heffernan",
+      "role": "Vice President",
+      "links": {
+        "email": "mailto:heffes2@rpi.edu"
+      }
+    },
+    {
+      "title": "Charlotte Stanton",
+      "role": "Secretary",
+      "links": {
+        "email": "mailto:stantc2@rpi.edu"
+      }
+    },
+    {
+      "title": "Ayanna Vasquez",
+      "role": "Treasurer",
+      "links": {
+        "email": "mailto:vasqua2@rpi.edu"
+      }
+    }
+  ],
+  "navbar": [
+    { "title": "Home", "link": "index.html" },
+    { "title": "About", "link": "index.html#About" },
+    { "title": "Members", "link": "members.html" },
+    { "title": "Tutoring", "link": "tutoring.html" },
+    { "title": "Company Expose", "link": "expose.html" }
+  ],
+  "socialmedia": [
+    { "platform": "Facebook", "link": "", "icon":"./resources/facebook.png"},
+    { "platform": "Twitter", "link": "", "icon":"./resources/twitter.png"},
+    { "platform": "Instagram", "link": "", "icon":"./resources/instagram.png"},
+    { "platform": "TikTok", "link": "", "icon":"./resources/tiktok.png"},
+    { "platform": "LinkedIn", "link": "","icon":"./resources/linkedin.png"}
+  ]  
+}
