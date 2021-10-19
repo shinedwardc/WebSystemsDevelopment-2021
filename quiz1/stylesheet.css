@@ -1,0 +1,40 @@
+body {
+    background-image: url('speed-internet-technology-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+main {
+    line-height: 1.5;
+    font-family: "Cambria", "Georgia", "serif";
+    margin: 0% 5% 0% 5%;
+    padding: 5%;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+header {
+    padding: 30px;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 300%;
+    color: white;
+}
+
+button{
+    background-color: rgb(119, 116, 116);
+    color: black;
+}
+
+button:hover {
+    background-color: rgb(68, 66, 66);
+    color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#currencyChange {
+    text-align: center;
+}
