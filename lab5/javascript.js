@@ -129,7 +129,12 @@ function update_rank() {
     document.getElementById("rank-update").innerHTML = rank;
     if (points > highest_score){
         highest_score = points;
-        document.getElementById("high-score-update").innerHTML = highest_score;
+        
+        localStorage.setItem('highest', highest_score);
+        if (localStorage.getItem('highest')){
+            let highest_score  = localStorage.getItem('highest');
+            document.getElementById("high-score-update").innerHTML = highest_score;
+        }
     }
 }
 
