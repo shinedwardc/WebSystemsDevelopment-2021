@@ -29,7 +29,7 @@ This lab's focus was to learn how optimizing front end can impact a webpage's pe
 Additional functionality/changes
 ----------
 - I slightly changed light/dark mode so that dark mode changed the text to white so that it is more visually appealing.
-- I changed the functions so that the hexagons when pressed will change color instead of changing size.
+- I changed the functions so that the hexagons when pressed will change color instead of changing size, for the reason that the original method of changing hexagon sizes were inefficient.
 - I added the highest score section. The number does not change until a new high score is reached within the week, and the high score will be saved and carried on for the remainder of the week. This was implemented using localStorage in order to store data even when the browser is closed the data will not be deleted. The high score will be resetted every week, I implemented Date.now() for this.
 
 Comments & Reflection
