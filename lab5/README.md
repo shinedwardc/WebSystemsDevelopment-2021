@@ -30,8 +30,9 @@ Additional functionality/changes
 ----------
 - I slightly changed light/dark mode so that dark mode changed the text to white so that it is more visually appealing.
 - I changed the functions so that the hexagons when pressed will change color instead of changing size.
-- I added the highest score section. The number does not change until a historical new high score is reached, and the high score will be saved and carried on to the future. This was implemented using localStorage in order to store data with no expiration date, and to ensure that when the browser is closed the data will not be deleted.
+- I added the highest score section. The number does not change until a new high score is reached within the week, and the high score will be saved and carried on for the remainder of the week. This was implemented using localStorage in order to store data even when the browser is closed the data will not be deleted. The high score will be resetted every week, I implemented Date.now() for this.
 
 Comments & Reflection
 --------------
-
+Over the week I managed to first find a list of  what optimizations were appropriate for this website. I chose some of the optimizations above, starting with the basics such as implementing external CSS and Javascript files, to the code functionalities because a lot looked tedious or unnecessary.
+I struggled in making the changed Javascript work because the function methods are a lot different in terms of display. I also had trouble in enabling Gzip compression, because I could not understand what the httpd.conf file was, and I had a hard time trying to found resources that told the location of the file. Managing to access the right width for the alphabet I wanted from the sprite was hard to implement in the beginning as well, but I managed to subtract the wanted alphabet's ascii number by 97, to get the index of the right alphabet. The sprite was in alphabetical order for this reason of convenience. 
