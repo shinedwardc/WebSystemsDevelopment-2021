@@ -253,7 +253,7 @@ class Tan extends Operation2 implements SingleInput {
     } 
     else if (isset($_POST['euler_power']) && $_POST['euler_power'] == 'Power by e'){
       $op2 = new EulerPower($input);
-    }
+    } 
     else if (isset($_POST['sin']) && $_POST['sin'] == 'Sin'){
       $op2 = new Sin($input);
     }  
@@ -325,6 +325,7 @@ class Tan extends Operation2 implements SingleInput {
     <input type="submit" name="ln" value="Ln" />
     <input type="submit" name="power_10" value="Power by 10" />
     <input type="submit" name="euler_power" value="Power by e" />
+    
     <input type="submit" name="sin" value="Sin" />
     <input type="submit" name="cos" value="Cos" />
     <input type="submit" name="tan" value="Tan" />
@@ -333,4 +334,3 @@ class Tan extends Operation2 implements SingleInput {
 
 </body>
 </html>
-
