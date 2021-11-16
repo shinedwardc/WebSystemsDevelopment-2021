@@ -42,43 +42,43 @@
                 $zipNum = intval($zip);
 
                 if ($fName == '') {
-                    $errors .= '<li>First name may not be blank</li>';
+                    $errors .= '<li>First name cannot be blank</li>';
                     if ($focusId == '') $focusId = '#fName';
                 }
                 if ($lName == '') {
-                    $errors .= '<li>Last name may not be blank</li>';
+                    $errors .= '<li>Last name cannot be blank</li>';
                     if ($focusId == '') $focusId = '#lName';
                 }
                 if ($alias == '') {
-                    $errors .= '<li>Alias may not be blank</li>';
+                    $errors .= '<li>Alias cannot be blank</li>';
                     if ($focusId == '') $focusId = '#alias';
                 }
                 if ($rin == '') {
-                    $errors .= '<li>RIN may not be blank</li>';
+                    $errors .= '<li>RIN cannot be blank</li>';
                     if ($focusId == '') $focusId = '#rin';
                 }
                 if ($rcsid == '') {
-                    $errors .= '<li>RCSID may not be blank</li>';
+                    $errors .= '<li>RCSID cannot be blank</li>';
                     if ($focusId == '') $focusId = '#rcsid';
                 }
                 if ($phone == '') {
-                    $errors .= '<li>Phone may not be blank</li>';
+                    $errors .= '<li>Phone cannot be blank</li>';
                     if ($focusId == '') $focusId = '#phone';
                 }
                 if ($street == '') {
-                    $errors .= '<li>Street may not be blank</li>';
+                    $errors .= '<li>Street cannot be blank</li>';
                     if ($focusId == '') $focusId = '#street';
                 }
                 if ($city == '') {
-                    $errors .= '<li>City may not be blank</li>';
+                    $errors .= '<li>City cannot be blank</li>';
                     if ($focusId == '') $focusId = '#city';
                 }
                 if ($state == '') {
-                    $errors .= '<li>State may not be blank</li>';
+                    $errors .= '<li>State cannot be blank</li>';
                     if ($focusId == '') $focusId = '#state';
                 }
                 if ($zip == '') {
-                    $errors .= '<li>Zip may not be blank</li>';
+                    $errors .= '<li>Zip cannot be blank</li>';
                     if ($focusId == '') $focusId = '#zip';
                 }
 
@@ -128,27 +128,27 @@
                 $yearNum = intval($year);
 
                 if ($crn == '') {
-                    $errors .= '<li>CRN may not be blank</li>';
+                    $errors .= '<li>CRN cannot be blank</li>';
                     if ($focusId == '') $focusId = '#crn';
                 }
                 if ($prefix == '') {
-                    $errors .= '<li>Prefix may not be blank</li>';
+                    $errors .= '<li>Prefix cannot be blank</li>';
                     if ($focusId == '') $focusId = '#prefix';
                 }
                 if ($num == '') {
-                    $errors .= '<li>Number may not be blank</li>';
+                    $errors .= '<li>Number cannot be blank</li>';
                     if ($focusId == '') $focusId = '#num';
                 }
                 if ($title == '') {
-                    $errors .= '<li>Title may not be blank</li>';
+                    $errors .= '<li>Title cannot be blank</li>';
                     if ($focusId == '') $focusId = '#title';
                 }
                 if ($section == '') {
-                    $errors .= '<li>Section may not be blank</li>';
+                    $errors .= '<li>Section cannot be blank</li>';
                     if ($focusId == '') $focusId = '#section';
                 }
                 if ($year == '') {
-                    $errors .= '<li>Year may not be blank</li>';
+                    $errors .= '<li>Year cannot be blank</li>';
                     if ($focusId == '') $focusId = '#year';
                 }
 
@@ -179,15 +179,15 @@
                 $gradeNum = intval($grade);
 
                 if ($crn == '') {
-                    $errors .= '<li>CRN may not be blank</li>';
+                    $errors .= '<li>CRN cannot be blank</li>';
                     if ($focusId == '') $focusId = '#grade_crn';
                 }
                 if ($rin == '') {
-                    $errors .= '<li>RIN may not be blank</li>';
+                    $errors .= '<li>RIN cannot be blank</li>';
                     if ($focusId == '') $focusId = '#grade_rin';
                 }
                 if ($grade == '') {
-                    $errors .= '<li>Grade may not be blank</li>';
+                    $errors .= '<li>Grade cannot be blank</li>';
                     if ($focusId == '') $focusId = '#grade';
                 }
                 if ($errors == '' && $dbOk) { 
@@ -300,4 +300,3 @@
         </div>
     </body>
 </html>
-
