@@ -26,16 +26,16 @@
             }
 
             if (isset($_POST["Student"])) {
-                $fName = htmlspecialchars(trim($_POST["fName"]));  
-                $lName = htmlspecialchars(trim($_POST["lName"]));
-                $alias = htmlspecialchars(trim($_POST["alias"]));
-                $rin = htmlspecialchars(trim($_POST["rin"]));
-                $rcsid = htmlspecialchars(trim($_POST["rcsid"]));
-                $phone = htmlspecialchars(trim($_POST["phone"]));
-                $street = htmlspecialchars(trim($_POST["street"]));
-                $city = htmlspecialchars(trim($_POST["city"]));
-                $state = htmlspecialchars(trim($_POST["state"]));
-                $zip = htmlspecialchars(trim($_POST["zip"]));
+                $fName = ($_POST["fName"]);  
+                $lName = ($_POST["lName"]);
+                $alias = ($_POST["alias"]);
+                $rin = ($_POST["rin"]);
+                $rcsid = ($_POST["rcsid"]);
+                $phone = ($_POST["phone"]);
+                $street = ($_POST["street"]);
+                $city = ($_POST["city"]);
+                $state = ($_POST["state"]);
+                $zip = ($_POST["zip"]);
                 
                 $rinNum = intval($rin);
                 $phoneNum = intval($phone);
@@ -115,12 +115,12 @@
 
 
             if (isset($_POST["Course"])) {
-                $crn = htmlspecialchars(trim($_POST["crn"]));
-                $prefix = htmlspecialchars(trim($_POST["prefix"]));
-                $num = htmlspecialchars(trim($_POST["num"]));
-                $title = htmlspecialchars(trim($_POST["title"]));
-                $section = htmlspecialchars(trim($_POST["section"]));
-                $year = htmlspecialchars(trim($_POST["year"]));
+                $crn = ($_POST["crn"]);
+                $prefix = ($_POST["prefix"]);
+                $num = ($_POST["num"]);
+                $title = ($_POST["title"]);
+                $section = ($_POST["section"]);
+                $year = ($_POST["year"]);
 
                 $crnNum = intval($crn);
                 $numNum = intval($num);
@@ -167,12 +167,10 @@
                 }
             }            
 
-            // GRADE
             if (isset($_POST["Grade"])) {
-                // clean input
-                $crn = htmlspecialchars(trim($_POST["grade_crn"]));
-                $rin = htmlspecialchars(trim($_POST["grade_rin"]));
-                $grade = htmlspecialchars(trim($_POST["grade"]));
+                $crn = ($_POST["grade_crn"]);
+                $rin = ($_POST["grade_rin"]);
+                $grade = ($_POST["grade"]);
 
                 $crnNum = intval($crn);
                 $rinNum = intval($rin);
@@ -300,3 +298,4 @@
         </div>
     </body>
 </html>
+
