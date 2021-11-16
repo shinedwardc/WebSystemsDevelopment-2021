@@ -218,13 +218,13 @@
 
 
                     <label class="field" for="fName">First Name:</label>
-                    <div class="value"><input type="text" size="60" name="fName" id="fName" placeholder="First Name"/></div>
+                    <div class="value"><input type="text" size="50" name="fName" id="fName" placeholder="First Name"/></div>
                     
                     <label class="field" for="lName">Last Name:</label>
-                    <div class="value"><input type="text" size="60" name="lName" id="lName" placeholder="Last Name"/></div>
+                    <div class="value"><input type="text" size="50" name="lName" id="lName" placeholder="Last Name"/></div>
                     
                     <label class="field" for="alias">Alias:</label>
-                    <div class="value"><input type="text" size="60" name="alias" id="alias" placeholder="Alias"/></div>
+                    <div class="value"><input type="text" size="50" name="alias" id="alias" placeholder="Alias"/></div>
 
 
                     
@@ -232,13 +232,13 @@
                     <div class="value"><input type="text" size="10" maxlength="10" name="phone" id="phone" placeholder="Phone number"/></div>
 
                     <label class="field" for="street">Street:</label>
-                    <div class="value"><input type="text" size="60" name="street" id="street" placeholder="Street address"/></div>
+                    <div class="value"><input type="text" size="50" name="street" id="street" placeholder="Street address"/></div>
                     
                     <label class="field" for="city">City:</label>
-                    <div class="value"><input type="text" size="60" name="city" id="city" placeholder="City"/></div>
+                    <div class="value"><input type="text" size="50" name="city" id="city" placeholder="City"/></div>
                     
                     <label class="field" for="state">State:</label>
-                    <div class="value"><input type="text" size="60" name="state" id="state" placeholder="State"/></div>
+                    <div class="value"><input type="text" size="50" name="state" id="state" placeholder="State"/></div>
 
                     <label class="field" for="zip">Zip:</label>
                     <div class="value"><input type="text" size="10" maxlength="5" name="zip" id="zip" placeholder="Zip code"/></div>
@@ -264,7 +264,7 @@
                         <div class="value"><input type="text" size="10" maxlength="4" name="num" id="num" placeholder="Number"/></div>
 
                         <label class="field" for="title">Title:</label>
-                        <div class="value"><input type="text" size="60" name="title" id="title" placeholder="Title"/></div>
+                        <div class="value"><input type="text" size="50" name="title" id="title" placeholder="Title"/></div>
 
                         <label class="field" for="section">Section:</label>
                         <div class="value"><input type="text" size="10" maxlength="1" name="section" id="section" placeholder="Section"/></div>
