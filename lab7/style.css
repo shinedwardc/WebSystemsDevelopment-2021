@@ -1,0 +1,55 @@
+/*** FONT IMPORTS: ***/
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/*** GENERAL ELEMENTS: ***/
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    min-height: 100%;
+}
+body {
+    background: rgb(245,227,230);
+    background: radial-gradient(circle, rgba(245,227,230,1) 0%, rgba(217,228,245,1) 100%);
+    font-family: 'Ubuntu', sans-serif;
+    height: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+.gradeBook {
+    border-style: dashed;
+    margin: 5%;
+
+}
+section {
+    margin: 5px 10px 50px 10px;
+    border-style: outset;
+}
+
+h2 {
+    font-family: 'Viga',sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+    
+
+.fltLeft {
+  float: left;
+}
+.fltRight {
+  float: right;
+}
+
+
+
+/*** FORMS: ***/
+.formSection {
+    padding: 0 10%;
+}
+input {
+    font-family: 'Ubuntu',sans-serif;
+}
