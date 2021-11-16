@@ -96,3 +96,5 @@ CSCI, 2200, Foundations of Computer Science, 52708, 3 <br />
 ITWS, 2110, Web Systems Development, 53470, 2 <br />
 COMM, 4420, Foundations of Hci Usability, 53632, 2 <br />
 <br />
+
+For this php part of this lab, I first connected to mysql localhost, with username root and no password. Every submit button sends the data a user inputted to phpmyadmin through  querying each appropriate value and executeing it. If there were any missing input text boxes, it creates an error message, which I used jquery for alert. For particular input text boxes, the size was increased to 50 so that long inputs can be seen in one eye. For the CSS aspect of the website, I utilized fonts from google to give a clear visual. I was stuck in making the success alerts at first, because I was trying to make it through javascript. In the end, I did echo in html instead.
