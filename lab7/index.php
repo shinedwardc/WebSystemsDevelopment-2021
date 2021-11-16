@@ -290,7 +290,7 @@
                         <label class="field" for="grade">Grade:</label>
                         <div class="value"><input type="text" size="10" maxlength="3" name="grade" id="grade" placeholder="Grade"/></div>
                         <br />
-                        <input type="submit" value="Subtmit" id="Grade" name="Grade"/>
+                        <input type="submit" value="Submit" id="Grade" name="Grade"/>
                     </div>
                 </fieldset>
                 </form>
