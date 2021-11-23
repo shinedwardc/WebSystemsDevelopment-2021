@@ -15,7 +15,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="navBar.js" defer></script>
-    <script src="javascript.js" defer></script>
+    <script src="NavAnimations.js" defer></script>
     
   </head> 
 
