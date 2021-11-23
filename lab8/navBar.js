@@ -11,7 +11,7 @@ $(document).ready(function() {
 					description = "'"+j.Description+"'";
 					link = "'"+j.Link+"'";
 					get = "'home.php?title="+title+"'&description="+description+"'";
-					string += '<a class="button" onclick=" return display('+title+','+description+','+link+','+get+')">'+j.Title+'</a>';
+					string += '<button class="button" onclick=" return display('+title+','+description+','+link+','+get+')">'+j.Title+'</button>';
 				});
 			});
 			$('#mySideBar').append(string);
