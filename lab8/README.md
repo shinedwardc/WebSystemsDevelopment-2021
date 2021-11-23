@@ -1,5 +1,5 @@
-#Edward Shin#
-#Lab 8#
+# Edward Shin #
+# Lab 8 #
 ## Reflection ##
 For this lab, I first created a json document with the top level object labeled as Websys_course, </ br>
 with Lectures and Labs seperated into two objects a level lower, with each lecture and lab information. </ br>
