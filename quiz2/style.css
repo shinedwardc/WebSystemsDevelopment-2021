@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    font-family: 'Ubuntu',sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+.button {
+    background-color: #1BD7BB;
+    color: black;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    outline: none;
+    justify-content: column;
+    padding: 20px 30px;
+}
+
+.active, .button:hover {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+}
+
+#box td,tr {
+    color: white;
+}
+
+#box td{
+    padding: 15px 15px;
+
+}
+
+#discounted {
+    color: yellowgreen;
+}
