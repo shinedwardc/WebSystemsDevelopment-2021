@@ -1,0 +1,110 @@
+
+{
+    "websys_courses":{
+        "Lectures":{
+            "Lecture 1":{
+                "Title": "Apache/git",
+                "Description":"Review on AMP stack and git",
+                "Link": "https://docs.google.com/presentation/d/1yqESGRC_v59VDIAUw1u3IsKPFFrqjrxQdD04I6cw6W0/edit"
+            },
+            "Lecture 2":{
+                "Title":"Markup Languages/HTML5",
+                "Description":"Review on mark up languages and its purpose to mark up documents via annotations",
+                "Link":"https://drive.google.com/file/d/1YgLfeYeVHrgy5aMfFFw5Z1cNENaHkpyV/view"
+            },
+            "Lecture 3":{
+                "Title":"CSS",
+                "Description":"Review on CSS and its purpose for describing the presentation of websites",
+                "Link":"https://docs.google.com/presentation/d/1usbhG9skLKmKpiMtA7udt36f2mzbscXT/edit?amp;ouid=101431771635793895949&amp;rtpof=true&amp;sd=true"
+            },
+            "Lecture 4":{
+                "Title":"Advanced CSS",
+                "Description":"Learn more in detail about CSS",
+                "Link":"https://docs.google.com/presentation/d/1Vp_-_fqCBtwhlgT3HhqMbXx-7Piv7OPiQvblxyznPZE/edit#slide=id.gf2af6860b3_0_123"
+            },
+            "Lecture 5":{
+                "Title":"JavaScript",
+                "Description":"Learn about javascript as a side programming language for websites",
+                "Link":"https://docs.google.com/presentation/d/108yq32gLsn9Dn6_pjdpku9YagWjpaDuVY86BHfCB1KM/edit"
+            },
+            "Lecture 6":{
+                "Title":"AJAX/JSON",
+                "Description":"Learn about AJAX and JSON and their purpose to send and retrieve data with web applications",
+                "Link":"https://docs.google.com/presentation/d/1CuKTZPsaJQs1DRgKbKHlObP_rTXv0HtAhm_wLFpEYfM/edit#slide=id.p"
+            },
+            "Lecture 7":{
+                "Title":"jQuery",
+                "Description":"Introduction to jQuery, a javascript library",
+                "Link":"https://docs.google.com/presentation/d/1TOpBmwdZF1cUNfzcZ8t2DT237vvm5yFnqqi9mUzNBYw/edit"
+            },
+            "Lecture 8":{
+                "Title":"Frontend optimization/UX",
+                "Description":"Optimize website performance through different methods",
+                "Link":"https://docs.google.com/presentation/d/1xnWSdl3QlAJhhYZJB-L9qulDC2VGb67Ye5jGF5A0NTk/edit"
+            },
+            "Lecture 9":{
+                "Title":"PHP",
+                "Description":"Learn basics on PHP",
+                "Link":"https://docs.google.com/presentation/d/1FQrs6bCzF6lyfCXYm--leU81zl9uMwLz/edit?amp;ouid=101431771635793895949&amp;rtpof=true&amp;sd=true#slide=id.p1"
+            },
+            "Lecture 10":{
+                "Title":"More on PHP",
+                "Description":"Learn more on PHP concepts such as classes, Inheritance, Polymorphism",
+                "Link":"https://docs.google.com/presentation/d/1l-idKFz6MG4l057y9kiz_aSMUcEIwJRnZvi88UBUB98/edit"
+            },
+            "Lecture 11":{
+                "Title":"MySQL",
+                "Description":"Learn basics of MySQL",
+                "Link":"https://docs.google.com/presentation/d/1b9FUdOQxXLWUB_tNlShdqN695tt8nwMh/edit?amp;ouid=101431771635793895949&amp;rtpof=true&amp;sd=true"
+            },
+            "Lecture 12":{
+                "Title":"PHP and MySQL",
+                "Description":"Learn how to use PHP and MySQL together",
+                "Link":"https://docs.google.com/presentation/d/1hdchGQdRVq_vmLc4Ot1TbyDADWahZ15f/edit?amp;ouid=101431771635793895949&amp;rtpof=true&amp;sd=true"
+            },
+            "Lecture 13":{
+                "Title":"Authentication & Authorization",
+                "Description":"Use PHP and SQL for user authentication",
+                "Link":"https://docs.google.com/presentation/d/1IVV09GiwEho8KN4j3XFa9oVdIkz1t9LW/edit?amp;ouid=101431771635793895949&amp;rtpof=true&amp;sd=true"
+            }
+        },
+        "Labs":{
+            "Lab 1":{
+                "Title":"Team profolio",
+                "Description":"Make group profolio using HTML and CSS",
+                "Link":"../lab1"
+            },
+            "Lab 2":{
+                "Title":"Interactive Constitution website",
+                "Description":"Focus on the use of semantic correctness and markup of HTML/CSS",
+                "Link":"../lab2"
+            },
+            "Lab 3":{
+                "Title":"ITWS web page",
+                "Description":"Rebuild the ITWS web page using quality HTML/CSS",
+                "Link":"../lab3"
+            },
+            "Lab 4":{
+                "Title":"Gamma Nu Eta new website",
+                "Description":"Rebuild the honor society's websites using AJAX and JSON, HTML/CSS/Javascript",
+                "Link":"../lab4"
+            },
+            "Lab 5":{
+                "Title":"Frontend optimizations",
+                "Description":"Optimize a website's performance using at least 7 optimization methods",
+                "Link":"../lab5"
+            },
+            "Lab 6":{
+                "Title":"PHP calcaultor",
+                "Description":"Create a PHP calculator with interfaces,abstract classes, and principles of polymorphism",
+                "Link":"../lab6"
+            },
+            "Lab 7":{
+                "Title":"SQL",
+                "Description":"Create SQL tables and insert information",
+                "Link":"../lab7"
+            }
+        }
+    }    
+
+}
